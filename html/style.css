@@ -1,0 +1,69 @@
+
+body{
+  background: #212121;
+  color: #060404;
+  font-family: 'Trebuchet MS';
+}
+
+    #IDInput{
+        background: linear-gradient(45deg, #331aea, #1adcea, #2bee2e, #f1df1e);
+            animation: gradientAnimation 10s infinite;
+            background-size: 600% 600%;
+          font-family: 'Trebuchet MS';
+    
+    }
+
+label{
+  width: 5%;
+  display: inline-block;
+  text-align: right;
+  font-family: 'Trebuchet MS';
+}
+
+Input{
+    background: linear-gradient(45deg, #331aea, #1adcea, #2bee2e, #f1df1e);
+    animation: gradientAnimation 10s infinite;
+    background-size: 600% 600%;
+  font-family: 'Trebuchet MS';
+    border-radius: 7px; /* Modified to give smaller border radius */
+    border-width: 0px;
+}
+ 
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.Message{
+  color: #625ad3;
+}
+
+#Main{
+    background: linear-gradient(45deg, #1aea1e, #6479e3, #6a79ec, #1ef14b);
+    animation: gradientAnimation 10s infinite;
+    background-size: 600% 600%;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#Title{
+  font-size: 500%;
+  font-family: 'Trebuchet MS';
+}
